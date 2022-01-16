@@ -11,6 +11,7 @@ body{
 }.half-width{
     width:50%;
     padding-left: 2%;
+    margin-bottom: 90px;
 }.half-width img{
     width:80%;
 }.link-button{
@@ -20,9 +21,15 @@ body{
     border-radius: 10px;
     background-image: linear-gradient(orange ,tomato);
     font-weight: 700;
-    color:black;
+    color:blue;
     
 }.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10%;
+    
 }
