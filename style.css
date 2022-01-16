@@ -3,10 +3,14 @@ body{
     margin: 0;
 }h1{
     font-size:50px;
+
     
-}.Orange{
+}h2{
+    font-size: 40px;
+}
+.Orange{
     color:darkred;
-}section{
+}.flexible-container{
     display: flex;
 }.half-width{
     width:50%;
@@ -31,5 +35,30 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 10%;
+
+}.Experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    border-left:  10px solid;
     
+
+}.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}#Baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , green);
+    border-image-slice: 1;
+}#Pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(red , yellow);
+    border-image-slice: 1;
+}footer p{
+    text-align: center;
 }
